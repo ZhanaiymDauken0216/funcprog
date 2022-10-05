@@ -6,7 +6,7 @@ print(text.startswith("is",7,20)) #False
 
 #2-Мысал. swapcase() методы - бас әріппен жазылғанды кішіге,ал кішіні үлкенге айналдырады
 text = 'AimaN is a STUDENT oF SatbAyev UNIVERsity'
-print(text.swapcase()) # AimaN is a STUDENT oF SatbAyev UNIVERsity
+print(text.swapcase()) # aIMAn IS A student Of sATBaYEV univerSITY
 
 
 #3-Мысал . zfill() методы - жолдың басына нөлдерді (0) қосады
