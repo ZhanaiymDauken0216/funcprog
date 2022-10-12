@@ -59,3 +59,26 @@ while True:
     if n == 0:
         break
 print(sorted(list, reverse=True))
+
+
+#Тізім қайтаратын функция жазып шығу. Алдын ала студенттердің пәндері және бағалары бар тізім құрастыр.
+# Және сол тізім бойынша студенттің атын еңгізген кезде, сол студенттің бағаларын шығарып бертін болсын
+
+def get_student_grades():
+    student_grades = {
+      'Aiman' : 75,
+      'Aigerim': 89,
+      'Aidana': 95,
+    }
+    while True:
+      student_name = input()  #Студенттің есімін енгіземіз
+      for student in student_grades:  # Словарьдың ішінен іздейтін цикл
+            if student == student_name: #Егер студенттің есімі словарьда болса
+                    print(student_grades[student])  #Бағасын шығару
+                    break #Программаны тоқтату
+            else: #Егер енгізілген есім болмаса
+                print('Бұл есім табылмады.')
+
+table = get_student_grades()
+for student, grade in table.items():
+    print(student, grade)
