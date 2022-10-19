@@ -59,7 +59,14 @@ print(dict)
 print(tup + tup2)
 print(set)
 
+#index методы
+print(list.index(2))
+print(tup.index(2))
 
+dict = {"one":1,"two":2,"three":3,"four":4,"five":5}
+keys = list(dict.keys())
+print(keys[1])
+#set - те индекс методы жоқ
 
 #count методы
 print(list.count())
@@ -84,16 +91,6 @@ def Reverse(tuples):
 tuples = (1,2,3,4,5)
 print(Reverse(tuples))
 
-
-#index методы
-print(list.index(2))
-print(tup.index(2))
-
-dict = {"one":1,"two":2,"three":3,"four":4,"five":5}
-keys = list(dict.keys())
-print(keys[1])
-
-#set - те индекс методы жоқ
 
 #5. Словарь синонимов
 n = int(input())
