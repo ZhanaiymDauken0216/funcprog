@@ -1,4 +1,7 @@
 #Наби Айман
+#Dauken Zhanaiym
+#Kabylbek Zhanna
+#Ryskeldi Yntymak
 
 num = int(input()) #Кез келген бүтін санды енгімезі
 if num > 0: #Егер сан 0-ден үлкен болса
